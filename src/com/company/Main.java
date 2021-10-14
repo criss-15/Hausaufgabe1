@@ -59,9 +59,9 @@ public class Main {
         Aufgabe4 obj4 = new Aufgabe4();
         List<Integer> preis_tastatur = new ArrayList<>(Arrays.asList(15, 45, 20));
         List<Integer> preis_usb = new ArrayList<>(Arrays.asList(8, 12, 20, 25));
-        System.out.println(obj4.Ubung1(preis_tastatur));
-        System.out.println(obj4.Ubung2(preis_tastatur, preis_usb));
-        System.out.println(obj4.Ubung3(preis_usb, 18));
+        System.out.println(obj4.billigsteTastatur(preis_tastatur));
+        System.out.println(obj4.teuersteGegenstand(preis_tastatur, preis_usb));
+        System.out.println(obj4.teuersteUSB(preis_usb, 18));
         System.out.println(obj4.gekaufteProdukte(preis_tastatur, preis_tastatur, 60));
         System.out.println(obj4.gekaufteProdukte(preis_tastatur, preis_usb, 5));
 
