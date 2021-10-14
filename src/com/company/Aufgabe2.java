@@ -1,6 +1,11 @@
 package com.company;
 
 public class Aufgabe2 {
+
+    /* die methode findet den maximalen Zahl in einem Array;
+    Input: array von Zahlen;
+    Output: maximale Zahl;
+     */
     public static int getMax(int[] arr, int length)
     {
         int max;
@@ -19,6 +24,11 @@ public class Aufgabe2 {
         }
         return arr[length-1];
     }
+
+    /* die methode findet den minimalen Zahl in einem Array;
+  Input: array von Zahlen;
+  Output: minimale Zahl;
+   */
 
     public static int getMin(int[] arr, int length)
     {
@@ -39,6 +49,10 @@ public class Aufgabe2 {
         return arr[0];
     }
 
+    /* die Methode findet die maximale Summe von n-1 Zahlen
+    Input:array von Zahlen;
+    Output: maximale Summe;
+     */
     public static int maxSum(int [] arr, int length)
     {
 
@@ -59,6 +73,10 @@ public class Aufgabe2 {
         return maxSum - min;
     }
 
+    /* die Methode findet die minimale Summe von n-1 Zahlen
+    Input:array von Zahlen;
+     Output: minimale Summe;
+    */
     public static int minSum(int [] arr, int length) {
 
         int minSum = 0, sum = 0;

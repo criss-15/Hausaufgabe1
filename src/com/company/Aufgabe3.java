@@ -5,7 +5,7 @@ public class Aufgabe3 {
         int t=0; //rest
         int s=0; //summe
         int[] arr3 = new int[arr1.length+1];
-        for(int i=arr1.length-1; i>=0; i--){ //parcurgem invers ca adunam
+        for(int i=arr1.length-1; i>=0; i--){ //parcurgem invers pentru ca adunam
             s=arr1[i] + arr2[i] + t;
             arr3[i+1]= s % 10; //incepem de la pozitia 9 si mergem catre prima pozitie adica 0;
             t = s / 10;  //in t stocam ce merge mai departe
